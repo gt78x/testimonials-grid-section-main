@@ -23,32 +23,32 @@ body{
     display: flex;
     justify-content: center;
     min-height: 100vh;
-    padding: 50px 30px;
+    padding: 3.125rem 1.875rem;
     background-color: var(--light-grayish-blue);
 }
 
 main{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 section{
-    border-radius: 10px;
-    padding: 25px;
+    border-radius: 0.625rem;
+    padding: 1.5625rem;
 }
 
 div.user{
     display: grid;
     grid-template-areas: 'img name' 'img verified';
-    margin-bottom: 20px ;
+    margin-bottom: 1.25rem ;
     justify-content: flex-start;
     align-items: center;
-    gap: 0px 10px;
+    gap: 0rem 0.625rem;
 }
 
 div.user img{
-    width: 35px;
+    width: 2.1875rem;
     grid-area: img;
     border-radius: 50%;
 }
@@ -67,7 +67,7 @@ p.resume{
     font-size: 1.25rem;
     font-weight: 600;
     line-height: 1.7rem;
-    margin-bottom: 15px ;
+    margin-bottom: 0.9375rem ;
 }
 
 p.quote{
@@ -104,9 +104,9 @@ p.quote{
 }
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 48rem){
     body{
-        padding: 50px 100px;
+        padding: 3.125rem 6.25rem;
 
     }
 
@@ -136,12 +136,12 @@ p.quote{
     }
 }
 
-@media screen and (max-width:1200px) and (min-width:768px){
+@media screen and (max-width:75rem) and (min-width:48rem){
     body{
-        padding: 30px 30px;
+        padding: 1.875rem 1.875rem;
     }
 
     main{
-        gap: 15px;
+        gap: 0.9375rem;
     }
 }
