@@ -107,12 +107,12 @@ p.quote{
 @media screen and (min-width: 48rem){
     body{
         padding: 3.125rem 6.25rem;
-
     }
 
     main{
         display: grid;
         grid-template-areas: 'daniel daniel daniel jonathan kira' 'jeanette patrick patrick patrick kira';
+        grid-template-rows: max-content max-content;
     }
 
     #daniel{
